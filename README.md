@@ -2,7 +2,7 @@
 
 <span style="color:red">Warning everything in this repository is for information purposes only. Do not build or use this device on any person. This is not medical grade equipment and has a high probability that it could cause significant injury or death. By reading, sharing, implementing, deriving works from, or copying any of this information you assume all liability and absolve liability from the author of this work.</span>
 
-[![Rex Ventilator](https://github.com/hackadayrex/ventilator/blob/master/images/video_thumbnail.jpg)](https://youtu.be/pFnB-vOWQmU "Rex Ventilator")
+![Rex Ventilator](https://github.com/hackadayrex/ventilator/blob/master/images/video_thumbnail.jpg)](https://youtu.be/pFnB-vOWQmU "Rex Ventilator")
 
 ### Overview
 
@@ -31,14 +31,14 @@ The design is made up of three elements:
 3) The air bags are called 'Air Wedges' and are typically used to open car doors
  - this means they can handle large pressures and repeated usage
 
-[![Rex Ventilator](https://github.com/hackadayrex/ventilator/blob/master/hardware/IMG_1255.jpg)]
-[![Rex Ventilator](https://github.com/hackadayrex/ventilator/blob/master/hardware/IMG_1256.jpg)]
-[![Rex Ventilator](https://github.com/hackadayrex/ventilator/blob/master/hardware/IMG_1257.jpg)]
-[![Rex Ventilator](https://github.com/hackadayrex/ventilator/blob/master/hardware/IMG_1262.jpg)]
-[![Rex Ventilator](https://github.com/hackadayrex/ventilator/blob/master/hardware/IMG_1263.jpg)]
-[![Rex Ventilator](https://github.com/hackadayrex/ventilator/blob/master/hardware/IMG_1264.jpg)]
-[![Rex Ventilator](https://github.com/hackadayrex/ventilator/blob/master/hardware/IMG_1265.jpg)]
-[![Rex Ventilator](https://github.com/hackadayrex/ventilator/blob/master/hardware/IMG_1266.jpg)]
+![Rex Ventilator](https://github.com/hackadayrex/ventilator/blob/master/hardware/IMG_1255.jpg)
+![Rex Ventilator](https://github.com/hackadayrex/ventilator/blob/master/hardware/IMG_1256.jpg)
+![Rex Ventilator](https://github.com/hackadayrex/ventilator/blob/master/hardware/IMG_1257.jpg)
+![Rex Ventilator](https://github.com/hackadayrex/ventilator/blob/master/hardware/IMG_1262.jpg)
+![Rex Ventilator](https://github.com/hackadayrex/ventilator/blob/master/hardware/IMG_1263.jpg)
+![Rex Ventilator](https://github.com/hackadayrex/ventilator/blob/master/hardware/IMG_1264.jpg)
+![Rex Ventilator](https://github.com/hackadayrex/ventilator/blob/master/hardware/IMG_1265.jpg)
+![Rex Ventilator](https://github.com/hackadayrex/ventilator/blob/master/hardware/IMG_1266.jpg)
 
 ### Electronics
 1) Breadboard plug and play electronics for quick prototyping
@@ -46,10 +46,10 @@ The design is made up of three elements:
 3) The powersupply is 12volts and a DC 2 DC converter creates a 5volt supply to power the arduino (it is possible that this could be removed and the arduino powered directly by the 12 volts supply - however this way I'm fine with pluggin in my laptop whilst powering the supply)
 4) An arduino nano was selected for the CPU as it's cheap and available
 
-[![Rex Ventilator](https://github.com/hackadayrex/ventilator/blob/master/electronics/IMG_1258.jpg)]
-[![Rex Ventilator](https://github.com/hackadayrex/ventilator/blob/master/electronics/IMG_1259.jpg)]
-[![Rex Ventilator](https://github.com/hackadayrex/ventilator/blob/master/electronics/IMG_1260.jpg)]
-[![Rex Ventilator](https://github.com/hackadayrex/ventilator/blob/master/electronics/IMG_1261.jpg)]
+![Rex Ventilator](https://github.com/hackadayrex/ventilator/blob/master/electronics/IMG_1258.jpg)
+![Rex Ventilator](https://github.com/hackadayrex/ventilator/blob/master/electronics/IMG_1259.jpg)
+![Rex Ventilator](https://github.com/hackadayrex/ventilator/blob/master/electronics/IMG_1260.jpg)
+![Rex Ventilator](https://github.com/hackadayrex/ventilator/blob/master/electronics/IMG_1261.jpg)
 
 ### Software
 1) The initial code is included in the folder.
