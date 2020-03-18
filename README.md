@@ -51,9 +51,78 @@ The design is made up of three elements:
 ![Rex Ventilator](https://github.com/hackadayrex/ventilator/blob/master/electronics/IMG_1260.jpg)
 ![Rex Ventilator](https://github.com/hackadayrex/ventilator/blob/master/electronics/IMG_1261.jpg)
 
-## Software
+## Software (Arduino Nano Code)
 1) The initial code is included in the folder.
 2) Note the code needs to be enhanced to control the flow better
+
+```
+int valve1 = 2;
+int valve2 = 3;
+int valve3 = 4;
+int intakeHighPin = 5;
+int intakeLowPin = 6;
+
+int time_change = 100;
+int time_on = 800;
+
+int OnTime = 0;
+int OnTimeMax = 6000;
+
+void setup() 
+{ 
+  pinMode(valve1, OUTPUT);
+  pinMode(valve2, OUTPUT);
+  pinMode(valve3, OUTPUT);
+  pinMode(intakeHighPin, INPUT);
+  pinMode(intakeLowPin, INPUT);
+  Serial.begin(115200);
+} 
+
+
+void loop() 
+{ 
+  Serial.println("starting");
+  digitalWrite(valve1, LOW);
+  digitalWrite(valve2, LOW);
+  delay(time_change);
+  digitalWrite(valve1, HIGH);
+  delay(100);              
+
+  while((digitalRead(intakeHighPin) == HIGH) && (OnTime < OnTimeMax)) {
+    //While loop that SHOULD end if the input goes low
+    
+    Serial.println("loop");
+    delay(100);                                               
+    // wait 100 ms
+    OnTime = OnTime + 100;
+  }
+  OnTime = 0;
+  
+  Serial.println("end");
+  
+  digitalWrite(valve3, LOW);
+  digitalWrite(valve1, LOW);
+  delay(time_change);
+  digitalWrite(valve2, HIGH);
+
+  while((digitalRead(intakeLowPin) == HIGH) && (OnTime < OnTimeMax)) {
+    //While loop that SHOULD end if the input goes low
+    
+    Serial.println("loop");
+    delay(100);                                               
+    // wait 100 ms
+    OnTime = OnTime + 100;
+  }
+  OnTime = 0;
+  
+  digitalWrite(valve2, LOW);
+  delay(time_change);
+  digitalWrite(valve3, HIGH);
+  delay(time_on*5);
+  
+} 
+
+```
 
 
 ## Important Links
