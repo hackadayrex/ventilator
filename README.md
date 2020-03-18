@@ -31,14 +31,14 @@ The design is made up of three elements:
 3) The air bags are called 'Air Wedges' and are typically used to open car doors
  - this means they can handle large pressures and repeated usage
 
-[![Rex Ventilator](https://github.com/hackadayrex/ventilator/blob/master/electronics/IMG_1255.jpg)]
-[![Rex Ventilator](https://github.com/hackadayrex/ventilator/blob/master/electronics/IMG_1256.jpg)]
-[![Rex Ventilator](https://github.com/hackadayrex/ventilator/blob/master/electronics/IMG_1257.jpg)]
-[![Rex Ventilator](https://github.com/hackadayrex/ventilator/blob/master/electronics/IMG_1262.jpg)]
-[![Rex Ventilator](https://github.com/hackadayrex/ventilator/blob/master/electronics/IMG_1263.jpg)]
-[![Rex Ventilator](https://github.com/hackadayrex/ventilator/blob/master/electronics/IMG_1264.jpg)]
-[![Rex Ventilator](https://github.com/hackadayrex/ventilator/blob/master/electronics/IMG_1265.jpg)]
-[![Rex Ventilator](https://github.com/hackadayrex/ventilator/blob/master/electronics/IMG_1266.jpg)]
+[![Rex Ventilator](https://github.com/hackadayrex/ventilator/blob/master/hardware/IMG_1255.jpg)]
+[![Rex Ventilator](https://github.com/hackadayrex/ventilator/blob/master/hardware/IMG_1256.jpg)]
+[![Rex Ventilator](https://github.com/hackadayrex/ventilator/blob/master/hardware/IMG_1257.jpg)]
+[![Rex Ventilator](https://github.com/hackadayrex/ventilator/blob/master/hardware/IMG_1262.jpg)]
+[![Rex Ventilator](https://github.com/hackadayrex/ventilator/blob/master/hardware/IMG_1263.jpg)]
+[![Rex Ventilator](https://github.com/hackadayrex/ventilator/blob/master/hardware/IMG_1264.jpg)]
+[![Rex Ventilator](https://github.com/hackadayrex/ventilator/blob/master/hardware/IMG_1265.jpg)]
+[![Rex Ventilator](https://github.com/hackadayrex/ventilator/blob/master/hardware/IMG_1266.jpg)]
 
 ### Electronics
 1) Breadboard plug and play electronics for quick prototyping
