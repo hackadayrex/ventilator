@@ -4,13 +4,13 @@
 
 ### Do not build or use this device on any person. This is not medical grade equipment and has a high probability that it could cause significant injury or death. By reading, sharing, implementing, deriving works from, or copying any of this information you assume all liability and absolve liability from the author.
 
-[![Rex Ventilator](https://github.com/hackadayrex/ventilator/blob/master/images/video_thumbnail.jpg)](https://youtu.be/pFnB-vOWQmU "Rex Ventilator")]
+[![Rex Ventilator](https://github.com/hackadayrex/ventilator/blob/master/images/video_thumbnail.jpg)](https://youtu.be/pFnB-vOWQmU "Rex Ventilator")
 
 ## Overview
 
-The Coronavirus is projected to overwhelm the capabilities of most hospital systems during the growth and peak of cases requiring mechanical ventilators. Most ventilators are in short supply and it maybe impossible in many countries to access more. As care is rationed many people are projected to die if not given ventilation as part of Intensive Care Units. The Rex Ventilator was designed to help fill this gap in the system that would support the breathing of a patient who was unable to breath on their own.
+The Coronavirus is projected to overwhelm the capabilities of most hospital systems during the growth and peak of cases requiring mechanical ventilators. Most ventilators are in short supply and it maybe impossible in many countries to get more. As care is rationed many people are projected to die if not given ventilation at an Intensive Care Unit (ICU). The Rex Ventilator is a prototype design to explore low cost - high availability designs to help fill this gap in the system that would support the breathing of a patient who was unable to breath on their own.
 
-As such, the 'Rex' ventilator is designed to be build from off the shelf parts, be constructed quickly, and be broadly servicable by anyone with basic knowledge of electronics and software design. The Rex would be connected to an air supply (provided by commercial generators), and then be connected to the patient via intubation. This design is a prototype of a solution that would need further development, but could provide a start point for that work.
+As such, the 'Rex' ventilator is designed to be built from off the shelf parts, be constructed quickly, and be broadly servicable by anyone with basic knowledge of electronics and software design. The Rex would be connected to an air supply (provided by a commercial generator), and then be connected to the patient via intubation. This design is inspired from an earlier 'pandemic ventilor' but added updated controls and an improved air bag design. It is a prototype of a solution that would need further development, but could provide a start point for that work.
 
 The design is made up of three elements:
  - The hardware base
@@ -18,13 +18,13 @@ The design is made up of three elements:
  - Electronics and Power supply
 
 # Current Status / Limitations
-1) The exhause valves should be increased in size from 1/4 to 1/2 solenoids to allow for greater exhailing flow rate
+1) The exhaust valve solenoids should be increased in size from 1/4 to 1/2 to allow for greater exhailing flow rate
 2) There is currently no pressure sensing on the patient side of the ventilator - additional sensors can be added
 3) The reed switches need to be moved manually - would be better if a sliding potentiometer was used to more actively control the range
 4) No emergency alert is created if the air supply fails
 5) There is no 'overpressure' limits in the system
 6) Exhaust air filters need to be added to prevent particles from being emmitted
-7) No additional 02 supply can be connected
+7) No additional 02 supply port would need to be connected
 8) The air valves should be Oxygen Safe - so ideally made of brass
 
 ## Hardware
@@ -45,7 +45,7 @@ The design is made up of three elements:
 ## Electronics
 1) Breadboard plug and play electronics for quick prototyping
 2) The bag 'high' and bag 'low' detectors are simple reed switches
-3) The powersupply is 12volts and a DC 2 DC converter creates a 5volt supply to power the arduino (it is possible that this could be removed and the arduino powered directly by the 12 volts supply - however this way I'm fine with pluggin in my laptop whilst powering the supply)
+3) The powersupply is 12volts and a DC 2 DC converter creates a 5 volt supply to power the arduino (it is possible that this could be removed and the arduino powered directly by the 12 volts supply - however this way I'm fine with pluggin in my laptop whilst powering the supply)
 4) An arduino nano was selected for the CPU as it's cheap and available
 
 ![Rex Ventilator](https://github.com/hackadayrex/ventilator/blob/master/electronics/IMG_1258.jpg)
@@ -125,7 +125,6 @@ void loop()
 } 
 
 ```
-
 
 ## Important Links
 
