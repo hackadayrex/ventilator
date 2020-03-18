@@ -1,4 +1,4 @@
-# The Rex Ventilator
+# The Rex Ventilator - V1.0
 
 ## !! Warning everything in this repository is for information purposes only. !!
 
