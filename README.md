@@ -10,14 +10,38 @@
 
 *This design in relation to the UK British Chambers of Commerce specification:* https://www.britishchambers.org.uk/media/get/Specification%20For%20RMVS%20Challenge.pdf
 
-* Be reliable for 14 days: not tested
-* Volume: 2 settings | variable from X to Y ml per breath
-* ...
+* Be reliable for 14 days: 
+ - NOT TESTED
+* Provide at least two settings for volume of air/air O2 mix delivered per cycle/breath. These settings to be 450ml +/- 10ml per breath and 350ml +/- 10ml per breath.
+ - NOT IMPLEMENTED (todo: add additional reed switch for dual volume sweep)
+* Provide this air/air O2 mix at a peak pressure of 350 mm H2O.
+ - NOT IMPLEMENTED (todo: need specs for connector)
+* Have the capability for patient supply pipework to remain pressurised at all times to 150mm H20. 
+ - NOT TESTED (todo: pressure sensor on patient side that regulates the outlet valve)
+* Have an adjustable rate of between 12 and 20 cycles/breaths per minute.
+ - NOT TESTED (todo: could be implemented via changing inlet pressure and/or pressure sensing at the air bag)
+* Deliver at least 400ml of air/air 02 mix in no more than 1.5 seconds. The ability to change the rate at which air is pushed into the patient is desirable but not essential.
+ - NOT TESTED (todo: setup volume testing)
+* Be built from O2 safe components to avoid the risk of fire and demonstrate avoidance of hot spots.
+ - NOT IMPLEMENTED (todo: update values to brass components)
+* Be capable of breathing for an unconscious patient who is unable to breathe for his or herself. Ability to sense when a patient is breathing, and support that breathing is desirable but not es- sential.
+ - NOT TESTED (todo: addition of patient side pressure sensor would enable microcontroller to determine if operational)
+* Be able to supply pure air and air O2 mix at a range of concentrations including at least 50% and 100% Oxygen. Oxygen shortages are not expected, but the ability to attach a Commercial Off The Shelf (COTS) portable O2 concentrator machine may be a useful feature.
+ - NOT IMPLEMENTED (todo: add valve on inlet side to prevent O2 leakage into the air resevoir)
+* Support connections for hospital Oxygen supplies – whether driven by piped or cylinder infra- structure
+ - NOT IMPLEMENTED (todo: need specs on typical connectors and/or couplings to 1/4 fittings)
+* Be compatible with standard COTS catheter mount fittings (15mm Male 22mm Female)
+ - NOT IMPLEMENTED (todo: need specs on typical connectors and/or couplings to 1/4 fittings)
+* Fail SAFE, ideally generating a clear alarm on failure. Failure modes to be alarmed include (but
+are not limited to) pressure loss and O2 loss.
+ - NOT IMPLEMENTED (todo: add buzzer to the circuit and trigger if lack of operation at patient pressure monitored, couple with a dismiss button)
 
-This requires _$$_ and _time_ to construct.
+This requires $~100 and 4-8 hours to construct.
 
 This is not suitable to support more than one patient using a splitter valve.
 
+
+# Summary
 The Coronavirus is projected to overwhelm the capabilities of most hospital systems during the growth and peak of cases requiring mechanical ventilators. Most ventilators are in short supply and it maybe impossible in many countries to get more. As care is rationed many people are projected to die if not given ventilation at an Intensive Care Unit (ICU). The Rex Ventilator is a prototype design to explore low cost - high availability designs to help fill this gap in the system that would support the breathing of a patient who was unable to breath on their own.
 
 As such, the 'Rex' ventilator is designed to be built from off the shelf parts, be constructed quickly, and be broadly servicable by anyone with basic knowledge of electronics and software design. The Rex would be connected to an air supply (provided by a commercial generator), and then be connected to the patient via intubation. This design is inspired from an earlier 'pandemic ventilor' but added updated controls and an improved air bag design. It is a prototype of a solution that would need further development, but could provide a start point for that work.
