@@ -126,6 +126,19 @@ void loop()
 
 ```
 
+## Parts List
+
+Note the following parts of examples of what this ventilator was built with. If you can't source exactly these items, this list provides ideas for what materials you could use. Note again that this is an information only prototype and changes in parts could significantly affect the effectiveness of the system. This must be considered experimental vs the exact parts needed for a system.
+
+* [Air Wedges](https://www.amazon.com/gp/product/B081YQ4HRK) - NovelBee Car Air Pump Wedges Alignment Tool,Medium and Small Inflatable Air Shim Bag Pump with Valve and Two Plastic Window Wedge for Auto Repair and Home Use
+* [Air Connectors](https://www.amazon.com/gp/product/B07L1FVKPJ) - 1/4" Tube OD x 1/4" NPT Thread Male Straight Connector Push to Connect Pneumatic Tube Fitting
+* [Air Connectors](https://www.amazon.com/gp/product/B07JLXR3V6) - 6 Style 6mm Push to Connect Tube Fitting Assortment Kit, Including PL-1/4-N1, PL-1/4-N2, PC-1/4-N1, 1/4 inch od, 1/4 inch Od Y Spliter, PUC-1/4 Push to Connect Tube Fitting
+* [TIP120 NPN Power Transistors](https://www.amazon.com/gp/product/B07LG2C3MY) - Bridgold 20pcs TIP120 TO-220 NPN Darlington Bipolar Power Transistor, 5A 60V HFE:1000, 3-Pin
+* [Breadboard](https://www.amazon.com/gp/product/B077DN2PS1) - Breadboard Solderless Prototype PCB Board – ALLUS BB-009 (3pcs) 400 Pin with 4 Power Rails and Double Sided Tape for Raspberry Pi and Arduino
+* [Valves](https://www.amazon.com/gp/product/B074Z5SDG3) - 1/4inch DC 12V 2 Way Normally Closed Electric Solenoid Air Valve
+* [Arduino](https://www.amazon.com/gp/product/B07G99NNXL) - LAFVIN Nano V3.0, Nano Board ATmega328P 5V 16M Micro-Controller Board Compatible with Arduino IDE (Nano x 3 with USB Cable)
+* [Air Tubes](https://www.amazon.com/gp/product/B07VGGLCYV) - Tailonz Pneumatic Air Line 1/4 inch od Pneumatic Nylon Tube 32.8ft Air Brake Tubing Nylon Hose Kit
+
 ## Important Links
 
 * [UK Ventilator Specs](https://www.britishchambers.org.uk/media/get/Specification%20For%20RMVS%20Challenge.pdf) - Published in UK
