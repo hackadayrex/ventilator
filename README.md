@@ -8,6 +8,16 @@
 
 ## Overview
 
+*This design in relation to the UK British Chambers of Commerce specification:* https://www.britishchambers.org.uk/media/get/Specification%20For%20RMVS%20Challenge.pdf
+
+* Be reliable for 14 days: not tested
+* Volume: 2 settings | variable from X to Y ml per breath
+* ...
+
+This requires _$$_ and _time_ to construct.
+
+This is not suitable to support more than one patient using a splitter valve.
+
 The Coronavirus is projected to overwhelm the capabilities of most hospital systems during the growth and peak of cases requiring mechanical ventilators. Most ventilators are in short supply and it maybe impossible in many countries to get more. As care is rationed many people are projected to die if not given ventilation at an Intensive Care Unit (ICU). The Rex Ventilator is a prototype design to explore low cost - high availability designs to help fill this gap in the system that would support the breathing of a patient who was unable to breath on their own.
 
 As such, the 'Rex' ventilator is designed to be built from off the shelf parts, be constructed quickly, and be broadly servicable by anyone with basic knowledge of electronics and software design. The Rex would be connected to an air supply (provided by a commercial generator), and then be connected to the patient via intubation. This design is inspired from an earlier 'pandemic ventilor' but added updated controls and an improved air bag design. It is a prototype of a solution that would need further development, but could provide a start point for that work.
