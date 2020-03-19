@@ -6,7 +6,7 @@
 
 [![Rex Ventilator](https://github.com/hackadayrex/ventilator/blob/master/images/video_thumbnail.jpg)](https://youtu.be/pFnB-vOWQmU "Rex Ventilator")
 
-## Project Status related to UK British Chambers of Commerce Specifications
+## Project Status in relation to UK British Chambers of Commerce Specifications
 
 *This design in relation to the UK British Chambers of Commerce specification:* https://www.britishchambers.org.uk/media/get/Specification%20For%20RMVS%20Challenge.pdf
 
@@ -38,7 +38,8 @@ The design is made up of three elements:
  - Air system (tubes and valves)
  - Electronics and Power supply
 
-# Current Status / Limitations
+
+# Project Status / Next Steps
 1) The exhaust valve solenoids should be increased in size from 1/4 to 1/2 to allow for greater exhailing flow rate
 2) There is currently no pressure sensing on the patient side of the ventilator - additional sensors can be added
 3) The reed switches need to be moved manually - would be better if a sliding potentiometer was used to more actively control the range
