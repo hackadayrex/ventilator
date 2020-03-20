@@ -15,7 +15,8 @@
 
 *This design in relation to the UK British Chambers of Commerce specification:* https://www.britishchambers.org.uk/media/get/Specification%20For%20RMVS%20Challenge.pdf
 
-* Be reliable for 14 days: NOT TESTED
+* Be reliable for 14 days:
+  * NOT TESTED
 * Provide at least two settings for volume of air/air O2 mix delivered per cycle/breath. These settings to be 450ml +/- 10ml per breath and 350ml +/- 10ml per breath. 
   * NOT IMPLEMENTED (todo: add additional reed switch for dual volume sweep)
 * Provide this air/air O2 mix at a peak pressure of 350 mm H2O.
