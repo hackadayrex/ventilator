@@ -175,9 +175,9 @@ Note the following parts of examples of what this ventilator was built with. If 
 hackadayrex@gmail.com
 
 ## Acknowlegements
-Thank you to all the following organizations that have contributed time and effort towards this project
+Thank you to the following organizations that have contributed time and effort towards this project:
 
-* Stephen Robinson, [East Rock Software](https://www.eastrocksoftware.com) a software development agency focusses on application development, data science, machine learning and helping companies build tech teams.
+* Stephen Robinson, [East Rock Software](https://www.eastrocksoftware.com) a software development agency focussed on application development, data science, machine learning and helping companies build tech teams.
 * Ben Michaelson, with the Connecticut law firm of Zangari Cohn ([www.zcclawfirm.com](https://www.zcclawfirm.com)),  is a transactional business attorney that understands the nuances of important business transactions and the need to make them both legally compliant and economically successful.
 
 
