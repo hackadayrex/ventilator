@@ -178,6 +178,8 @@ hackadayrex@gmail.com
 Thank you to the following organizations that have contributed time and effort towards this project:
 
 * Stephen Robinson, [East Rock Software](https://www.eastrocksoftware.com) a software development agency focussed on application development, data science, machine learning and helping companies build tech teams.
+* Fabricio Pavano, Team Lead for Olavarría, Argentina
 * Ben Michaelson, with the Connecticut law firm of Zangari Cohn ([www.zcclawfirm.com](https://www.zcclawfirm.com)),  is a transactional business attorney that understands the nuances of important business transactions and the need to make them both legally compliant and economically successful.
+
 
 
