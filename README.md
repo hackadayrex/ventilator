@@ -97,9 +97,9 @@ The design is made up of three elements:
 2) Note the code needs to be enhanced to control the flow better
 
 ```
-int valve1 = 2;
-int valve2 = 3;
-int valve3 = 4;
+int valveAirSupply = 2;
+int valvePatientFeed = 3;
+int valveExhaust = 4;
 int intakeHighPin = 5;
 int intakeLowPin = 6;
 
@@ -111,9 +111,9 @@ int OnTimeMax = 6000;
 
 void setup() 
 { 
-  pinMode(valve1, OUTPUT);
-  pinMode(valve2, OUTPUT);
-  pinMode(valve3, OUTPUT);
+  pinMode(valveAirSupply, OUTPUT);
+  pinMode(valvePatientFeed, OUTPUT);
+  pinMode(valveExhaust, OUTPUT);
   pinMode(intakeHighPin, INPUT);
   pinMode(intakeLowPin, INPUT);
   Serial.begin(115200);
@@ -123,10 +123,10 @@ void setup()
 void loop() 
 { 
   Serial.println("starting");
-  digitalWrite(valve1, LOW);
-  digitalWrite(valve2, LOW);
+  digitalWrite(valveAirSupply, LOW);
+  digitalWrite(valvePatientFeed, LOW);
   delay(time_change);
-  digitalWrite(valve1, HIGH);
+  digitalWrite(valveAirSupply, HIGH);
   delay(100);              
 
   while((digitalRead(intakeHighPin) == HIGH) && (OnTime < OnTimeMax)) {
@@ -141,10 +141,10 @@ void loop()
   
   Serial.println("end");
   
-  digitalWrite(valve3, LOW);
-  digitalWrite(valve1, LOW);
+  digitalWrite(valveExhaust, LOW);
+  digitalWrite(valveAirSupply, LOW);
   delay(time_change);
-  digitalWrite(valve2, HIGH);
+  digitalWrite(valvePatientFeed, HIGH);
 
   while((digitalRead(intakeLowPin) == HIGH) && (OnTime < OnTimeMax)) {
     //While loop that SHOULD end if the input goes low
@@ -156,9 +156,9 @@ void loop()
   }
   OnTime = 0;
   
-  digitalWrite(valve2, LOW);
+  digitalWrite(valvePatientFeed, LOW);
   delay(time_change);
-  digitalWrite(valve3, HIGH);
+  digitalWrite(valveExhaust, HIGH);
   delay(time_on*5);
   
 } 
