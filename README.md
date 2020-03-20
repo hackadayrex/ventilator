@@ -3,6 +3,8 @@
 [![Rex Ventilator](https://github.com/hackadayrex/ventilator/blob/master/images/video_thumbnail.jpg)](https://youtu.be/pFnB-vOWQmU "Rex Ventilator")
 
 ## !! Warning everything in this repository is for information purposes only !!
+
+## IMPORTANT - LEGAL INFORMATION ABOUT THE PROJECT
 1. The material contained herein is for informational purposes only and should not be construed as a substitute for professional medical advice, diagnosis or treatment. ANY AND ALL USAGE OF THESE PLANS AND IDEAS, AND ANY DERIVATIONS AND MODIFICATIONS HEROF ARE SOLELY AT YOUR OWN RISK AND BY VIEWING THIS INFORMATION YOU HEREBY WAIVE AND RELEASE THE ORIGINAL POSTER FROM, AND YOU AGREE TO DEFEND AND HOLD HARMLESS THE ORIGINAL POSTER WITH RESPECT TO, ANY AND ALL LIABILITY, DAMAGES, LOSSES, AND INJURY OR DEATH THAT MAY RESULT FROM YOUR USE OR DISTRIBUTION OF THE INFORMATION PROVIDED.  
 2. Under no circumstances should the material or information contained herein be construed as marketing for any medical device. 
 3. The original poster of the material and information contained herein cannot be held responsible for any personal or property damage caused by an individual’s use of such material and information (including serious personal injury or death). 
