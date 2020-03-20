@@ -2,7 +2,13 @@
 
 ## !! Warning everything in this repository is for information purposes only !!
 
-### This is an experimental prototype of a ventilator design. Do not use this device on any person. This is not medical grade equipment and has a high probability that it could cause significant injury or death. By reading, sharing, implementing, deriving works from, or copying any of this information you assume all liability and absolve the author of all liability.
+## Important
+1. The material contained herein is for informational purposes only and should not be construed as a substitute for professional medical advice, diagnosis or treatment. ANY AND ALL USAGE OF THESE PLANS AND IDEAS, AND ANY DERIVATIONS AND MODIFICATIONS HEROF ARE SOLELY AT YOUR OWN RISK AND BY VIEWING THIS INFORMATION YOU HEREBY WAIVE AND RELEASE THE ORIGINAL POSTER FROM, AND YOU AGREE TO DEFEND AND HOLD HARMLESS THE ORIGINAL POSTER WITH RESPECT TO, ANY AND ALL LIABILITY, DAMAGES, LOSSES, AND INJURY OR DEATH THAT MAY RESULT FROM YOUR USE OR DISTRIBUTION OF THE INFORMATION PROVIDED.  
+2. Under no circumstances should the material or information contained herein be construed as marketing for any medical device. 
+3. The original poster of the material and information contained herein cannot be held responsible for any personal or property damage caused by an individual’s use of such material and information (including serious personal injury or death). 
+4. Reliance on this material and any information contained herein is solely at your own risk and the original poster does not take responsibility for any action you may take as a result of your use of such material and information.
+5. By taking and/or using any material and information contained herein, you agree that you will use such material and information in a safe and legal manner, consistent with applicable laws and regulations.
+6. This is a only a prototype for a medical device, it has not been subject to clinical trials and has not been tested for safety or effectiveness, therefore it is not, and should not be viewed as, an alternative to any similar FDA approved device.
 
 [![Rex Ventilator](https://github.com/hackadayrex/ventilator/blob/master/images/video_thumbnail.jpg)](https://youtu.be/pFnB-vOWQmU "Rex Ventilator")
 
